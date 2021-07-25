@@ -1,4 +1,4 @@
-.btn,p{font-size:10px}.conditionNode{border:1px solid #777;font-size:10px;background:#eee;border-radius:50px;padding:10px}.testNode{border:1px solid #777;font-size:10px;background:#3b82f6;border-radius:5px;color:#fff;padding:10px 20px}.dragNode{margin-bottom:10px;font-size:10px;flex-direction:column;display:flex;height:100%}.conditionNode .react-flow__handle-connecting{background:red;box-shadow:1px 1px 4px 0 #ef4444}.testNode .react-flow__handle-connecting{background:#00f;box-shadow:1px 1px 4px 0 #0ff}
+.btn,p{font-size:14px}.conditionNode{border:1px solid #777;font-size:14px;background:#eee;border-radius:50px;padding:10px}.testNode{border:1px solid #777;font-size:14px;background:#3b82f6;border-radius:5px;color:#fff;padding:10px 20px}.dragNode{margin-bottom:10px;font-size:14px;flex-direction:column;display:flex;height:100%}.conditionNode .react-flow__handle-connecting{background:red;box-shadow:1px 1px 4px 0 #ef4444}.testNode .react-flow__handle-connecting{background:#00f;box-shadow:1px 1px 4px 0 #0ff}
 
 
 

@@ -2,14 +2,14 @@
   <div id="app">
     
     <header class="bg-white shadow">
-      <div class="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto py-2 px-4 sm:px-6 lg:px-8">
         <h1 class="text-xl font-bold text-gray-900">
           Vue.js ReactFlow Demo
         </h1>
       </div>
     </header>
     <main>
-      <div class="max-w-7xl mx-auto py-2 sm:px-6 lg:px-8">
+      <div class="mx-auto py-2 sm:px-6 lg:px-8">
         <!-- Replace with your content -->
         <p>This is a demo of running a React component in Vue.js. Drag nodes to the workspace below. To delete a node/edge press Delete. 
         The element lists gets updated in real-time</p>
@@ -20,12 +20,12 @@
          
           <div class="flex">
              
-          <div class="w-4/5">
+          <div class="w-3/5">
               
             <react-flow style="height:400px; width:100%;" class="border-2 border-dashed border-gray-200 rounded-lg h-96" :bus="bus" :state="graph" 
                       @nodeDblClick="handleNodeDblClick" @edgeDblClick="handleNodeDblClick" @stateChange="onStateChange" ref="mygraph" />  
           </div>
-           <div class="w-1/5">
+           <div class="w-3/5">
              <div class="border-2 border-dashed border-gray-200 rounded-lg whitespace-pre text-tiny font-mono  bg-gray-100 ">
                {{graph}}
                
@@ -126,12 +126,12 @@ export default {
 
 <style>
 .btn, p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .conditionNode {
   border: 1px solid #777;
-  font-size: 10px;
+  font-size: 14px;
   background: #eee;
   border-radius: 50px;
   padding: 10px; 
@@ -140,7 +140,7 @@ export default {
 .testNode{
   border: 1px solid #777;
   
-  font-size: 10px;
+  font-size: 14px;
   background: #3b82f6;
   border-radius: 5px;
   color:white;
@@ -149,7 +149,7 @@ export default {
 
 .dragNode{
   margin-bottom: 10px;
-  font-size: 10px;
+  font-size: 14px;
   flex-direction: column;
   display: flex;
   height: 100%;
